@@ -12,7 +12,7 @@ let contenitoreDom = document.getElementById("contenitore");
 for (var i = 0; i < ourTeam.length; i++) {
    const membroTeam = ourTeam[i];
 
-   let test = `<div class="card m-4" style="width: 18rem;">
+   let test = `<div class="card m-4 p-0 overflow-hidden" style="width: 18rem;">
                   <img src="${membroTeam["Immagine"]}" class="card-img-top object-fit-contain" alt="image of ${membroTeam["Nome"]}">
                   <div class="card-body">
                      <h4 class="card-title">${membroTeam["Nome"]}</h4>

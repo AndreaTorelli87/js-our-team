@@ -6,8 +6,13 @@ h1{
    font-size: 10vh;
 }
 
-img:hover{
+.card-img-top:hover{
    cursor: pointer;
-   transition: transform 0.3s linear;
-   transform: scale(0.9);
+   transform: scale(1.1, 1.1);
+   opacity: (0.9);
 }
+
+.card-img-top {
+   transition: all 1s;
+}
+
