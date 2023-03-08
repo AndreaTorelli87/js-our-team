@@ -2,3 +2,12 @@
    font-family: sans-serif;
 }
 
+h1{
+   font-size: 10vh;
+}
+
+img:hover{
+   cursor: pointer;
+   transition: transform 0.3s linear;
+   transform: scale(0.9);
+}
