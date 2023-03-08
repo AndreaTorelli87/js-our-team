@@ -31,10 +31,13 @@ const ourTeam = [
    },
 ];
 
+let contenitoreDom = document.getElementById("contenitore");
+
 for (var i = 0; i < ourTeam.length; i++) {
    const membroTeam = ourTeam[i];
    
    for (var chiave in membroTeam) {
-      console.log(chiave + ': ' + membroTeam[chiave]);
+      let aggiungiChiave = `<div>${chiave}: ${membroTeam[chiave]}</div>`;
+      contenitoreDom.innerHTML += aggiungiChiave;
    }
 }
